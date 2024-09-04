@@ -9,12 +9,14 @@
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.devDependencies.eslint&style=flat&logo=eslint&label=eslint&color=4B32C3)
 
 </div>
+
 <br>
 <p class="project-description"> 
 
 A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more.
 
 </p>
+<br>
 
 ## Features
 
