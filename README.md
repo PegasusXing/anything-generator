@@ -1,10 +1,12 @@
 
+<!--suppress HtmlDeprecatedAttribute -->
+<div class="project-badges" align=center>
+<br>
+
 # QR Code Generator
 > [!WARNING]
 > This repository is a work in progress! Don't fork or clone until the repo is marked as active.
 
-<!--suppress HtmlDeprecatedAttribute -->
-<div class="project-badges" align=center>
 <br>
 
 ![Static Badge](https://img.shields.io/badge/status-inactive-FF000D)
@@ -16,7 +18,7 @@
 
 </div>
 
-## Description
+## Overview
 A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more.
 
 ## Features
