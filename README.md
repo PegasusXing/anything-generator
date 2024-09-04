@@ -1,10 +1,11 @@
 
 > [!WARNING]
 > This repository is a work in progress! Don't fork or clone until the repo is marked as active.
+
 <!--suppress HtmlDeprecatedAttribute -->
 <div class="project-badges" align=center>
 
-# QR Code Generator <br> :lion
+# QR Code Generator
 <br>
 
 ![Static Badge](https://img.shields.io/badge/status-inactive-FF000D)
