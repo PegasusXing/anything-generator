@@ -1,5 +1,5 @@
-# QR Code Generator
 
+# QR Code Generator
 > [!WARNING]
 > This repository is a work in progress! Don't fork or clone until the repo is marked as active.
 
@@ -17,17 +17,14 @@
 </div>
 
 ## Description
-
 A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more.
 
 ## Features
-
 * ***Input Options:*** Generate QR codes for URLs, text, email addresses, and phone numbers.
 * ***Customization:*** Control QR code size, margin, and color.
 * ***Download:*** Download generated QR codes as PNG images.
 
 ## Dependencies
-
 * ***React:*** Frontend library for building user interfaces.
 * ***TypeScript:*** Adds static typing to JavaScript to improve developer productivity and code quality.
 * ***qrcode.react:*** React component for generating QR codes.
@@ -49,7 +46,6 @@ yarn run dev
 ```
 
 ## Usage
-
 1. Enter your data (URL, text, etc.) in the input field.
 2. Select the type of QR code you want to generate.
 3. Customize the QR code (optional).
@@ -57,13 +53,18 @@ yarn run dev
 5. Your QR code will be displayed. You can download it using the download button.
 
 ## Contributing
-
 Contributions are welcome! Here's how you can contribute to this project:
 
-1. 
+1. Fork the project
+2. Create your feature branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some AmazingFeature').
+4. Push to the branch (git push origin feature/AmazingFeature).
+5. Open a pull request.
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/PegasusXing/react-vite-qrcode/blob/main/LICENSE.md) file for details.
 
-
+## Acknowledgments
+* shields.io
+* simple icons.
+* etc.
