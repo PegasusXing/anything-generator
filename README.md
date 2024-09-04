@@ -1,5 +1,5 @@
 # QR Code Generator
-<br>
+
 <div class="project-badges" align=center>
 
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.version&style=flat&label=version&color=06B6D4)
@@ -10,13 +10,9 @@
 
 </div>
 
-<br>
-<p class="project-description"> 
+## Description
 
 A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more.
-
-</p>
-<br>
 
 ## Features
 
@@ -30,3 +26,7 @@ A simple QR Code Generator web application built with React and TypeScript. This
 * ***TypeScript:*** Adds static typing to JavaScript to improve developer productivity and code quality.
 * ***qrcode.react:*** React component for generating QR codes.
 * ***styled-components:*** CSS-in-JS library for styling React components.
+
+## Installation
+
+To run this project locally, clone the repository and navigate into the project directory:
