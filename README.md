@@ -48,7 +48,7 @@ You should get something like this:
 ```
   VITE v5.4.3  ready in 290 ms
 
-  ➜  Local:   http://localhost:5173/
+  ➜  Local:   http://localhost:5173/ 
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 ```
