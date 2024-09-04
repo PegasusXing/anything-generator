@@ -19,11 +19,12 @@ A simple QR Code Generator web application built with React and TypeScript. This
 ## Features
 
 * ***Input Options:*** Generate QR codes for URLs, text, email addresses, and phone numbers.
-* Customization: Control QR code size, margin, and color.
-* Download: Download generated QR codes as PNG images.
+* ***Customization:*** Control QR code size, margin, and color.
+* ***Download:*** Download generated QR codes as PNG images.
 
+## Technologies Used
 
-
-
-
-
+* ***React:*** Frontend library for building user interfaces.
+* ***TypeScript:*** Adds static typing to JavaScript to improve developer productivity and code quality.
+* ***qrcode.react:*** React component for generating QR codes.
+* ***styled-components:*** CSS-in-JS library for styling React components.
