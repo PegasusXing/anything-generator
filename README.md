@@ -56,15 +56,14 @@ yarn run dev
 4. Click on the "Generate QR Code" button.
 5. Your QR code will be displayed. You can download it using the download button.
 
+## Contributing
+
+Contributions are welcome! Here's how you can contribute to this project:
+
+1. 
+
 ## License
 
-This is free and unencumbered software released into the public domain.
-
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-For more information, please refer to <https://unlicense.org>
+This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 
