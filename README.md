@@ -8,6 +8,10 @@
 # QR Code Generator
 <br>
 
+[![PegasusXing - react-vite-qrcode](https://img.shields.io/static/v1?label=PegasusXing&message=react-vite-qrcode&color=blue&logo=github)](https://github.com/PegasusXing/react-vite-qrcode "Go to GitHub repo")
+[![stars - react-vite-qrcode](https://img.shields.io/github/stars/PegasusXing/react-vite-qrcode?style=social)](https://github.com/PegasusXing/react-vite-qrcode)
+[![forks - react-vite-qrcode](https://img.shields.io/github/forks/PegasusXing/react-vite-qrcode?style=social)](https://github.com/PegasusXing/react-vite-qrcode)
+
 ![Static Badge](https://img.shields.io/badge/status-inactive-FF000D)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.version&style=flat&label=version&color=06B6D4)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.devDependencies.vite&style=flat&logo=vite&label=vite&color=646CFF)
