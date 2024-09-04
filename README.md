@@ -64,6 +64,6 @@ Contributions are welcome! Here's how you can contribute to this project:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PegasusXing/react-vite-qrcode/blob/main/LICENSE.md) file for details.
 
 
