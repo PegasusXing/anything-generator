@@ -4,7 +4,7 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <div class="project-badges" align=center>
 
-# QR Code Generator
+# QR Code Generator <br> :lion
 <br>
 
 ![Static Badge](https://img.shields.io/badge/status-inactive-FF000D)
