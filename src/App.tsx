@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
-      QR CODE GENERATOR
+      QR CODE GENERATOR - NEW BRANCH
     </>
   )
 }
