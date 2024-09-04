@@ -34,19 +34,18 @@ A simple QR Code Generator web application built with React and TypeScript. This
 * ***styled-components:*** CSS-in-JS library for styling React components.
 
 ## Installation
-
-To run this project locally, clone the repository and navigate into the project directory:
-
+To run this project locally, clone the repository and navigate into the project directory, use npm or yarn to install the necessary dependencies and run the vite development server:
 ```
 git clone https://github.com/PegasusXing/react-vite-qrcode.git
 cd react-vite-qrcode
-```
 
-Install dependencies using npm or yarn:
+npm install
+npm run dev
 
-```
-npm start
 # or
-yarn start
+
+yarn install
+yarn run dev
 ```
+
 
