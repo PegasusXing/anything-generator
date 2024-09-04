@@ -49,7 +49,7 @@ npm run dev
 yarn install
 yarn run dev
 ```
-You should get something like this:
+You should be good to go:
 ```
   VITE v5.4.3  ready in 290 ms
 
