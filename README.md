@@ -10,7 +10,7 @@
 
 </div>
 
-## QR Code Generator
+A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more.
 
 
 
