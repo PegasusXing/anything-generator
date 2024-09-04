@@ -1,5 +1,8 @@
 # QR Code Generator
 
+> [!WARNING]
+> THIS REPO IS CURRENTLY IN TESTING + WORK IN PROGRESS!!! DON'T FORK AROUND AND FIND OUT.
+
 <div class="project-badges" align=center>
 <br>
 
@@ -31,3 +34,4 @@ A simple QR Code Generator web application built with React and TypeScript. This
 ## Installation
 
 To run this project locally, clone the repository and navigate into the project directory:
+
