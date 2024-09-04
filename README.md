@@ -34,13 +34,8 @@ A simple QR Code Generator web application built with React and TypeScript. This
 * ***styled-components:*** CSS-in-JS library for styling React components.
 
 ## Installation
-
-```bash
-git clone https://github.com/PegasusXing/react-vite-qrcode.git
-```
-
 To run this project locally, clone the repository and navigate into the project directory, use npm or yarn to install the necessary dependencies and run the vite development server:
-```bash
+```
 git clone https://github.com/PegasusXing/react-vite-qrcode.git
 cd react-vite-qrcode
 
@@ -52,5 +47,40 @@ npm run dev
 yarn install
 yarn run dev
 ```
+
+## Usage
+
+1. Enter your data (URL, text, etc.) in the input field.
+2. Select the type of QR code you want to generate.
+3. Customize the QR code (optional).
+4. Click on the "Generate QR Code" button.
+5. Your QR code will be displayed. You can download it using the download button.
+
+## License
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>
 
 
