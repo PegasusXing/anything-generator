@@ -5,6 +5,8 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <div class="project-badges" align=center>
 
+![Sample screenshot](src/assets/qr.svg)
+
 # QR Code Generator
 <br>
 
@@ -68,9 +70,9 @@ You should be good to go:
 ## Contributing
 Contributions are welcome! Here's how you can contribute to this project:
 1. Fork the project.
-2. Create your feature branch ``` git checkout -b feature/AmazingFeature ```
-3. Commit your changes ``` git commit -m 'Add some AmazingFeature' ```
-4. Push to the branch ``` git push origin feature/AmazingFeature ```
+2. Create your feature branch ``` git checkout -b feature/FeatureName ```
+3. Commit your changes ``` git commit -m 'Added some FeatureName that does some FeatureFunction' ```
+4. Push to the branch ``` git push origin feature/FeatureName ```
 5. Open a pull request.
 
 ## License
