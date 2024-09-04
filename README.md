@@ -1,4 +1,4 @@
-## QR Code Generator
+# QR Code Generator
 
 <div class="project-badges" align=center>
 
@@ -10,9 +10,19 @@
 
 </div>
 
-<p> A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more. </p>
+<p class="project-description"> 
+
+A simple QR Code Generator web application built with React and TypeScript. This project allows users to generate QR codes for various inputs like URLs, text, phone numbers, and more.
+
+</p>
 
 ## Features
+
+* **Input Options:** Generate QR codes for URLs, text, email addresses, and phone numbers.
+* Customization: Control QR code size, margin, and color.
+* Download: Download generated QR codes as PNG images.
+
+
 
 
 
