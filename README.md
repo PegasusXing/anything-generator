@@ -1,11 +1,12 @@
 # QR Code Generator
 
 > [!WARNING]
-> THIS REPO IS CURRENTLY IN TESTING + WORK IN PROGRESS!!! DON'T FORK AROUND AND FIND OUT.
+> This repository is a work in progress! Don't fork or clone until the repo is marked as active.
 
 <div class="project-badges" align=center>
 <br>
 
+![Static Badge](https://img.shields.io/badge/status-inactive-FF000D)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.version&style=flat&label=version&color=06B6D4)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.devDependencies.vite&style=flat&logo=vite&label=vite&color=646CFF)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPegasusXing%2Freact-vite-qrcode%2Fmain%2Fpackage.json&query=%24.dependencies.react&style=flat&logo=react&label=react&color=61DAFB)
