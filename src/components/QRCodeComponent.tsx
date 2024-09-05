@@ -7,7 +7,7 @@ function QRCodeComponent() {
 
     const downloadQRCode = (evt: React.FormEvent) => {
         evt.preventDefault();
-
+        // @ts-ignore
         if ("querySelector" in qrRef.current) {
             const canvas = qrRef.current.querySelector("canvas");
             const image = canvas.toDataURL("image/png");
