@@ -2,23 +2,20 @@ import * as React from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 
 function QRCodeComponent() {
-    const qrRef = React.useRef<HTMLDivElement | null>(null);
+    const qrRef = React.useRef();
     const [url, setUrl] = React.useState('');
 
     const downloadQRCode = (evt: React.FormEvent) => {
         evt.preventDefault();
         // @ts-ignore
-        if ("querySelector" in qrRef.current) {
-            const canvas = qrRef.current.querySelector("canvas");
-            const image = canvas.toDataURL("image/png");
-            const anchor = document.createElement("a");
-            anchor.href = image;
-            anchor.download = `qr-code.png`;
-            document.body.appendChild(anchor);
-            anchor.click();
-            document.body.removeChild(anchor);
-        }
-
+        const canvas = qrRef.current.querySelector("canvas");
+        const image = canvas.toDataURL("image/png");
+        const anchor = document.createElement("a");
+        anchor.href = image;
+        anchor.download = `qr-code.png`;
+        document.body.appendChild(anchor);
+        anchor.click();
+        document.body.removeChild(anchor);
         setUrl('');
     };
 
