@@ -10,7 +10,7 @@
 # QR Code Generator
 <br>
 
-[![View site - GH Pages](https://img.shields.io/badge/View_site-Netlify-2ea44f?style=flat)](https://pegasusxing.github.io/react-vite-qrcode/)
+[![View site - GH Pages](https://img.shields.io/badge/View_site-Netlify-2ea44f?style=flat)](https://react-qrgen.netlify.app/)
 [![PegasusXing - react-vite-qrcode](https://img.shields.io/static/v1?label=PegasusXing&message=react-vite-qrcode&color=blue&logo=github)](https://github.com/PegasusXing/react-vite-qrcode "Go to GitHub repo")
 [![stars - react-vite-qrcode](https://img.shields.io/github/stars/PegasusXing/react-vite-qrcode?style=social)](https://github.com/PegasusXing/react-vite-qrcode)
 [![forks - react-vite-qrcode](https://img.shields.io/github/forks/PegasusXing/react-vite-qrcode?style=social)](https://github.com/PegasusXing/react-vite-qrcode)
