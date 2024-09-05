@@ -1,7 +1,7 @@
 {
   "name": "react-vite-qrcode",
   "private": true,
-  "version": "alpha",
+  "version": "beta-test",
   "type": "module",
   "scripts": {
     "dev": "vite",

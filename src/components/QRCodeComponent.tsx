@@ -1,21 +1,29 @@
 import * as React from 'react';
-import { QRCodeSVG } from 'qrcode.react';
-
-const icon = ('src/assets/codesandbox.svg');
+import { QRCodeCanvas } from 'qrcode.react';
 
 function QRCodeComponent() {
+    const qrRef = React.useRef<HTMLDivElement | null>(null);
     const [url, setUrl] = React.useState('');
 
     const downloadQRCode = (evt: React.FormEvent) => {
         evt.preventDefault();
-        // TODO: Implement QR code download logic
+
+        if ("querySelector" in qrRef.current) {
+            const canvas = qrRef.current.querySelector("canvas");
+            const image = canvas.toDataURL("image/png");
+            const anchor = document.createElement("a");
+            anchor.href = image;
+            anchor.download = `qr-code.png`;
+            document.body.appendChild(anchor);
+            anchor.click();
+            document.body.removeChild(anchor);
+        }
 
         setUrl('');
     };
 
-    // Update QRCodeSVG component based on state
     const qr = (
-        <QRCodeSVG
+        <QRCodeCanvas
             id={"qrID"}
             size={500}
             value={url}
@@ -40,7 +48,7 @@ function QRCodeComponent() {
                 <button type={"submit"}>Download QR Code</button>
             </form>
             <br/>
-            <div className={"qr-container_qr-code"}> {qr} </div>
+            <div className={"qr-container_qr-code"} ref={qrRef}> {qr} </div>
         </div>
     );
 }
