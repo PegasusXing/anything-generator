@@ -65,10 +65,9 @@ You should be good to go:
 
 ## Usage
 1. Enter your data (URL, text, etc.) in the input field.
-2. Select the type of QR code you want to generate.
-3. Customize the QR code (optional).
-4. Click on the "Generate QR Code" button.
-5. Your QR code will be displayed. You can download it using the download button.
+2. _(coming soon)_ Select the type of QR code you want to generate.
+3. _(coming soon)_ Customize the QR code (optional).
+4. Your QR code will be displayed. You can download it using the download button.
 
 ## Contributing
 Contributions are welcome! Here's how you can contribute to this project:
