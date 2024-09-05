@@ -5,7 +5,7 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <div class="project-badges" align=center>
 
-![Sample screenshot](src/assets/img.png)
+![Sample screenshot](src/assets/qr-code.svg)
 
 # QR Code Generator
 <br>
