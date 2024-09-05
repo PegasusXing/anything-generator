@@ -1,9 +1,10 @@
 import './App.css'
+import QRCodeComponent from "./components/QRCodeComponent.tsx";
 
 function App() {
   return (
     <>
-      QR CODE GENERATOR - NEW BRANCH for  1st commit
+      <QRCodeComponent/>
     </>
   )
 }
