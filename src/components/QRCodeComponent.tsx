@@ -7,15 +7,19 @@ function QRCodeComponent() {
 
     const downloadQRCode = (evt: React.FormEvent) => {
         evt.preventDefault();
-        const canvas = qrRef.current.querySelector("canvas");
-        const image = canvas.toDataURL("image/png");
-        const anchor = document.createElement("a");
-        anchor.href = image;
-        anchor.download = `qr-code.png`;
-        document.body.appendChild(anchor);
-        anchor.click();
-        document.body.removeChild(anchor);
-        setUrl('');
+        const canvas = qrRef.current?.querySelector("canvas");
+        if (canvas) {
+            const image = canvas.toDataURL("image/png");
+            const anchor = document.createElement("a");
+            anchor.href = image;
+            anchor.download = `qr-code.png`;
+            document.body.appendChild(anchor);
+            anchor.click();
+            document.body.removeChild(anchor);
+            setUrl('');
+        } else {
+            console.error("No canvas element found or qrRef is not initialized");
+        }
     };
 
     const qr = (
