@@ -3,9 +3,12 @@ import QRCodeComponent from "./components/QRCodeComponent.tsx";
 
 function App() {
   return (
-    <>
-      <QRCodeComponent/>
-    </>
+      <>
+          <h1 className={"website-title"}> Anything Generator </h1>
+          <h2 className={"website-title-description"}> Select a tool from the dropdown </h2>
+
+          {/*<QRCodeComponent/>*/}
+      </>
   )
 }
 
