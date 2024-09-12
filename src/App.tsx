@@ -3,11 +3,13 @@ import { useState } from 'react';
 import QRCodeComponent from './components/QRCodeComponent.tsx';
 import PasswordComponent from './components/PasswordComponent.tsx';
 import InformationComponent from './components/InformationComponent.tsx';
+import UUIDComponent from "./components/UUIDComponent.tsx";
 
 const GeneratorType = {
     SELECT: 'select',
     QR_CODE: 'qrcode',
     PASSWORD: 'password',
+    UUID: 'uuid',
 };
 
 function GeneratorSelector({ onChange, value }) {
@@ -16,6 +18,7 @@ function GeneratorSelector({ onChange, value }) {
             <option value={GeneratorType.SELECT}>Select a generator</option>
             <option value={GeneratorType.QR_CODE}>QR Code</option>
             <option value={GeneratorType.PASSWORD}>Password</option>
+            <option value={GeneratorType.UUID}>UUID</option>
         </select>
     );
 }
@@ -39,7 +42,9 @@ function App() {
                         case GeneratorType.QR_CODE:
                             return <QRCodeComponent />;
                         case GeneratorType.PASSWORD:
-                            return <PasswordComponent />;
+                            return <PasswordComponent/>;
+                        case GeneratorType.UUID:
+                            return <UUIDComponent/>;
                         default:
                             return null;
                     }
