@@ -1,34 +1,52 @@
-import './App.css'
-import {useState} from "react";
-import QRCodeComponent from "./components/QRCodeComponent.tsx";
-import PasswordComponent from "./components/PasswordComponent.tsx";
-import InformationComponent from "./components/InformationComponent.tsx";
+import './App.css';
+import { useState } from 'react';
+import QRCodeComponent from './components/QRCodeComponent.tsx';
+import PasswordComponent from './components/PasswordComponent.tsx';
+import InformationComponent from './components/InformationComponent.tsx';
+
+const GeneratorType = {
+    SELECT: 'select',
+    QR_CODE: 'qrcode',
+    PASSWORD: 'password',
+};
+
+function GeneratorSelector({ onChange, value }) {
+    return (
+        <select className="generator-selector" onChange={onChange} value={value}>
+            <option value={GeneratorType.SELECT}>Select a generator</option>
+            <option value={GeneratorType.QR_CODE}>QR Code</option>
+            <option value={GeneratorType.PASSWORD}>Password</option>
+        </select>
+    );
+}
 
 function App() {
-    const [selectedGenerator, setSelectedGenerator] = useState('select'); // Default to QR code generator
+    const [selectedGenerator, setSelectedGenerator] = useState(GeneratorType.SELECT);
 
     const handleGeneratorChange = (event) => {
         setSelectedGenerator(event.target.value);
     };
 
-  return (
-      <>
-          <h1 className={"website-title"}>The Anything Generator</h1>
-          {/* Dropdown for selecting the generator */}
-          <select className={"generator-selector"} onChange={handleGeneratorChange} value={selectedGenerator}>
-              <option value="select">Select a generator</option> // Default selection
-              <option value="qrcode">QR Code</option>
-              <option value="password">Password</option>
-          </select>
-
-          {/* Conditionally render the selected generator */}
-          <div className="generator-container">
-              {selectedGenerator === 'select'   && <InformationComponent />}
-              {selectedGenerator === 'qrcode'   && <QRCodeComponent />}
-              {selectedGenerator === 'password' && <PasswordComponent />}
-          </div>
-      </>
-  )
+    return (
+        <>
+            <h1 className="website-title">The Anything Generator</h1>
+            <GeneratorSelector onChange={handleGeneratorChange} value={selectedGenerator} />
+            <div className="generator-container">
+                {(() => {
+                    switch (selectedGenerator) {
+                        case GeneratorType.SELECT:
+                            return <InformationComponent />;
+                        case GeneratorType.QR_CODE:
+                            return <QRCodeComponent />;
+                        case GeneratorType.PASSWORD:
+                            return <PasswordComponent />;
+                        default:
+                            return null;
+                    }
+                })()}
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;
